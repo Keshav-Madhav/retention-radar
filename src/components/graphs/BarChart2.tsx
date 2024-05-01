@@ -28,7 +28,7 @@ type Props = {
   type: string
 }
 
-const BarChartSalary = ({churndata, type}: Props ) => {
+const BarChart2 = ({churndata, type}: Props ) => {
   const salaryGroups = ['0-15000', '15000-30000', '30000-45000', '45000-60000', '60000-75000', '75000-90000', '90000-105000', '105000-120000', '120000-135000', '135000-150000', '150000-165000', '165000-180000', '180000-195000', '195000-210000'];
   const creditScoreGroups = ['350-400', '400-450', '450-500', '500-550', '550-600', '600-650', '650-700', '700-750', '750-800', '800-850'];
   const tenureGroups = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
@@ -121,4 +121,4 @@ const BarChartSalary = ({churndata, type}: Props ) => {
   )
 }
 
-export default BarChartSalary
+export default BarChart2

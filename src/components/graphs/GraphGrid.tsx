@@ -4,7 +4,7 @@ import { useState } from "react";
 import { WobbleCard } from "../ui/wobble-card";
 import PieChart from "./PieChart";
 import BarChart1 from "./BarChart1";
-import BarChartSalary from "./BarChartSalary";
+import BarChart2 from "./BarChart2";
 
 
 type Props = {
@@ -27,7 +27,7 @@ const GraphGrid = ({ data }: Props) => {
           <PieChart churndata={data} />  
         </WobbleCard>
         <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-zinc-900 min-h-[400px] lg:min-h-[600px] xl:min-h-[300px]" className="flex items-center justify-center p-4">
-          <BarChartSalary churndata={data} type={type} />
+          <BarChart2 churndata={data} type={type} />
         </WobbleCard>
       </div>
 
