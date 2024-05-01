@@ -1,9 +1,9 @@
-import Image from "next/image";
+import LandingPage from "@/components/landing/LandingPage";
 
 export default function Home() {
   return (
-    <div className="text-red-700">
-      hoiiiiiiiiiiiiiiiiii
+    <div className="bg-gray-950 w-full h-[300dvh] flex flex-col">
+      <LandingPage />
     </div>
   );
 }
