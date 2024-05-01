@@ -5,7 +5,7 @@ import { SparklesCore } from "../ui/sparkles";
 export function Title() {
   return (
     <div className=" w-full  flex flex-col items-center justify-center overflow-hidden rounded-md">
-      <h1 className="md:text-4xl text-2xl lg:text-6xl font-bold text-center text-white relative z-20">
+      <h1 className="md:text-4xl text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
         Retention Radar
       </h1>
       <div className="w-[40rem] h-10 relative">

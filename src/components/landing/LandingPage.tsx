@@ -20,9 +20,9 @@ const LandingPage = (props: Props) => {
             <Title />
           </div> 
 
-          <div className="text-center flex gap-28">
-            <BackgroundGradient className="rounded-[22px] max-w-lg p-2 sm:p-5 h-full bg-white dark:bg-gray-950 ">
-              <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
+          <div className="px-20 w-full text-start flex flex-wrap justify-around gap-4">
+            <BackgroundGradient className=" rounded-[22px] max-w-lg p-2 sm:p-5 h-full bg-white dark:bg-gray-950 ">
+              <p className="text-lg sm:text-2xl text-black mt-4 mb-2 dark:text-neutral-200">
                 What is Retention Radar?
               </p>9
       
@@ -42,7 +42,7 @@ const LandingPage = (props: Props) => {
               <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
               Rich Dataset:
               </p>
-              <p className="text-sm text-neutral-600 dark:text-neutral-400">
+              <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-2">
               Access a diverse array of customer attributes, including credit scores, demographics, account balance, and tenure with the organization.
               </p>
             </BackgroundGradient>
