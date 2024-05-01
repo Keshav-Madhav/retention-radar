@@ -10,8 +10,8 @@ const ModalSection = (props: Props) => {
     <div className="relative h-[100dvh] overflow-hidden">
       
       <div className="z-20 w-full h-full flex items-center justify-center text-white">
-        <div className="relative max-w-xl w-full h-[85dvh] overflow-hidden flex items-center justify-center">
-          <Vortex className="absolute bg-transparent"/>
+        <div className="relative max-w-xl w-full h-[85dvh] overflow-hidden flex items-center justify-center bg-[#00000002]">
+          {/* <Vortex className="absolute bg-transparent opacity-5"/> */}
           <ModalForm />
         </div>
       </div>
