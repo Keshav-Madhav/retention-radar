@@ -1,5 +1,6 @@
 import GraphSection from "@/components/graphs/GraphSection";
 import LandingPage from "@/components/landing/LandingPage";
+import ModalSection from "@/components/modalform/ModalSection";
 
 export default function Home() {
   return (
@@ -7,6 +8,8 @@ export default function Home() {
       <LandingPage />
 
       <GraphSection />
+
+      <ModalSection />
     </div>
   );
 }
