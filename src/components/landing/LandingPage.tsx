@@ -27,7 +27,7 @@ const LandingPage = (props: Props) => {
               </p>9
       
               <p className="text-sm text-neutral-600 dark:text-neutral-400">
-              In the fast-paced world of financial services, staying ahead means understanding your customers like never before. At [Your Company Name], we're dedicated to helping you predict and prevent customer churn with precision. Our cutting-edge web application combines advanced predictive modeling with rich customer data to empower you with insights and strategies for enhanced retention.
+              In the fast-paced world of financial services, staying ahead means understanding your customers like never before. At [Your Company Name], we&apos;re dedicated to helping you predict and prevent customer churn with precision. Our cutting-edge web application combines advanced predictive modeling with rich customer data to empower you with insights and strategies for enhanced retention.
               </p>
             </BackgroundGradient>
 
